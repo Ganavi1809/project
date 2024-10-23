@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function validate()
+		{
+			if (document.getElementById('name').value=="")
+				{
+					alert("Please Enter your Name");
+				}
+			else if (document.getElementById('email').value=="")
+				{
+					alert("Please Enter your email");
+				}
+			else if(document.getElementById('comment').value=="")
+				{
+					alert("Please Give a comment");
+				}
+			else
+				{
+					alert("Thanks for your comment");
+				}
+		}
+	</script>
+	<style type="text/css">
+		th{
+			float:left;
+		}
+		
+		input,textarea
+		{
+			width:500px;
+		}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="resort.css">
+</head>
+<body>
+	<fieldset style="width:100%;height:500vh;">
+	<div id="head">
+		<img class="logo" src="logo.jpg"alt="my website logo">
+	<h1  class="h1"> Paradise Gateways</h1></div>
+	
+
+<div class="image">
+<div class="slideshow" style="width:500; height: 500; "></div></div>
+<div class="text"><marquee>Lakshadweep</marquee></div>
+</div>
+<ul>
+		<li><a href="iconicplace.html">Iconic Place</a></li>
+		<li><a href="adventure.html">Adventure</a></li>
+		<li><a href="resort.html">Resorts and Stays</a></li>
+	</ul>
+
+	<div class="one" >
+
+<div class="card">
+	<div class="ibox">
+		<img src="r1.webp">
+	</div>
+	<div class="content">
+	<h2>Bangaram Island Beach Resort</h2>
+	<p>Located in the centre of the small Bangaram island, the beach resort offers AC and non-AC accommodations with surreal views of sparkling coral reefs, shallow lagoons and coconut trees fringing the island edges.</p>
+    </div>
+</div>
+
+
+<div class="card">
+	<div class="ibox">
+		<img src="r2.webp">
+	</div>
+	<div class="content">
+	<h2>Lakshadweep Samudram</h2>
+	<p>Lakshadweep Samudram is a tourism package introduced by the Society for Promotion of Nature Tourism and Sports (SPORTS). The cruise begins from Kochi and covers the islands of Kavaratti, Kalpeni and Minicoy by MV Kavaratti.</p>
+    </div>
+</div></div>
+
+<div class="two">
+<div class="card">
+	<div class="ibox">
+		<img src="r3.webp">
+	</div>
+	<div class="content">
+	<h2>Kavaratti Island Beach Resort</h2>
+	<p>Located by the shimmering beaches of the north-west Kavaratti, the beach resort is handled by the government tourism board. Lush greenery and silver sand encircles this beach resort.</p>
+    </div>
+</div>
+
+
+
+<div class="card">
+	<div class="ibox">
+		<img src="r4.webp">
+	</div>
+	<div class="content">
+	<h2>Minicoy Island Beach Resort</h2>
+	<p>Located in south of the southern-most Lakshadweep Island, the Minicoy Island beach resort is run by the tourism board. The resort is situated close to the light house and it is surrounded by lush greenery.  </p>
+    </div>
+</div></div>
+
+<div class="three">
+<div class="card">
+	<div class="ibox">
+		<img src="r5.webp">
+	</div>
+	<div class="content">
+	<h2>Kadmat Island Beach Resort</h2>
+	<p>Kadmat Island Beach Resort is a government-run resort on the island of Kadmat offering air-conditioned and non-AC accommodation packed with all amenities. The resort is surrounded by white beaches and tall palm trees.  </p>
+    </div>
+</div>
+
+<div class="card">
+	<div class="ibox">
+		<img src="r6.avif">
+	</div>
+	<div class="content">
+	<h2>Red Corals Beach Resort</h2>
+	<p>Sloped roofs and individual cottages welcome visitors here. The resort is situated close to the Airport and faces the azure waters of Agatti. The resort has earned credits for its modern facilities and a friendly staff.</p>
+    </div>
+</div></div>
+
+<div class="card">
+	<div class="ibox">
+		<img src="r7.webp">
+	</div>
+	<div class="content">
+	<h2>Agatti Island Beach Resort</h2>
+	<p>Located in Agatti, the resort is government-run and lies not far from the Agatti Aerodrome. The beach-side hut accommodation lies at a serene spot perfect for secluded rejuvenation.</p>
+    </div>
+</div>
+<fieldset style="width:40%; background-color:white; height:350px;" >
+	
+
+<form >
+	<h3 >Leave a Comment</h3>
+	<table>
+
+
+		<tr>
+			<th>Name</th></tr>
+			<tr>
+			<td><input type="text" name="Name" id="name"></td>
+		</tr>
+		<tr>
+			<th>Email</th></tr>
+			<tr><td><input type="email" name="Email" id="email"></td>
+		</tr>
+		<tr>
+			<th>Comment</th></tr>
+			<tr><td><textarea name="Comment" rows="5" cols="20" id="comment"></textarea></td>
+		</tr>
+		<tr>
+			
+			<td><input type="button" name="Post a Comment" value="Post a Comment" onclick="validate()"></td>
+		</tr>
+
+	</table>
+</form>
+</fieldset>
+</fieldset>
+</body>
+</html>

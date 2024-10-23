@@ -1,0 +1,26 @@
+ul{
+	list-style-type:none;
+  background-color:#f2e54a;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+}
+ul li{
+  float:right;
+  
+
+}
+li a{
+	display:block;
+	padding:20px;
+  text-decoration:none;
+  color:black;
+  text-align: center; 
+}
+li a:hover{
+  background-color:grey;
+}
+body{
+   background-image:linear-gradient rgba(255,00,22,0.5);
+}
+
